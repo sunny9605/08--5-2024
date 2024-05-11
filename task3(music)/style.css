@@ -1,0 +1,190 @@
+.music{
+    position: relative;
+    /* margin-left: 0; */
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#one{
+    display: inline-block;
+    height: 50px;
+    width: 10px;
+    background-color: red;
+    animation-name: music_one;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 10px;
+    
+}
+
+
+@keyframes music_one {
+    from{
+        height: 0;  
+          }
+            to{
+                height: 65px;
+            }
+            
+}
+
+
+#two{
+    display: inline-block;
+    height: 50px;
+    width: 10px;
+    background-color: red;
+    animation-name: music_two;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 10px;
+    margin-left: 14px;
+}
+
+
+
+@keyframes music_two {
+    from{
+        height: 0px;  
+          }
+            to{
+                height: 80px;
+            }
+            
+}
+
+
+#three{
+    display: inline-block;
+    height: 50px;
+    width: 10px;
+    background-color: red;
+    animation-name: music_three;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 10px;
+    margin-left: 30px;
+
+}
+
+
+
+@keyframes music_three {
+    from{
+        height: 0px;  
+          }
+            to{
+                height: 51px;
+            }
+            
+}
+
+
+#four{
+    display: inline-block;
+    height: 50px;
+    width: 10px;
+    background-color: red;
+    animation-name: music_four;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 10px;
+    margin-left: 70px;
+    /* left: 420px; */
+
+}
+
+
+
+@keyframes music_four {
+    from{
+height: 0px;          }
+}
+
+to{
+    height: 40px;
+}
+
+#five{
+    display: inline-block;
+    height: 50px;
+    width: 10px;
+    background-color: red;
+    animation-name: music_four;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 10px;
+    margin-left: 50px;
+
+}
+
+
+
+
+/* #six{
+    display: inline-block;
+    height: 50px;
+    width: 10px;
+    background-color: rgb(255, 0, 0);
+    animation-name: music_six;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-left: 50px;
+    /* animation-direction: reverse; */
+
+
+
+@keyframes music_six {
+    from{
+        height: 0px;          }
+        }
+        
+        to{
+            height: 43px;
+        } */
+
+    
+
+
+.music{
+    margin-left: 500px;
+}
+
+
+
+.sun{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(192, 176, 176);
+    border-top: 10px solid rgb(0, 0, 0);
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    
+
+   
+
+}
+
+@keyframes loader{
+    from{ transform: rotate(0deg);}
+    to{
+        transform: rotate(360deg);
+    }
+}
+

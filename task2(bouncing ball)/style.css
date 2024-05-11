@@ -1,0 +1,128 @@
+#ball_one{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    animation-name: ball_1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+animation-iteration-count: infinite;
+   
+
+}
+
+#ball_two{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(87, 79, 79);
+    border-radius: 50%;
+    margin-top: 250px;
+    margin-left: 20px;
+    animation-name: ball_1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+    
+
+#ball_three{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(46, 38, 38);
+    border-radius: 50%;
+    margin-top: 250px;
+    margin-left: 20px;
+    animation-name: ball_1;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+    animation-fill-mode: backwards;
+animation-iteration-count: infinite;
+    
+}
+
+#ball_four{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(46, 47, 99);
+    border-radius: 50%;
+    margin-top: 250px;
+    margin-left: 20px;
+    animation-name: ball_2;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+animation-iteration-count: infinite;
+    
+  
+
+}
+
+@keyframes ball_1 {
+    4% {background-color: black;
+        transform: translateY(-10px);}
+
+        10% {background-color: rgb(209, 55, 55);
+            transform: translateY-(50px);}
+
+            20% {background-color: rgb(85, 16, 16);
+                transform: translateY(-100px);}
+
+                50% {background-color: rgb(148, 97, 22);
+                    transform: translateY(-190px);}
+                }
+
+
+
+
+ @keyframes ball_2 {
+    from{
+        background-color: rgb(39, 19, 19);
+        bottom: 50px;
+    }
+
+    to{
+        background-color: rgb(17, 36, 36);
+        bottom: 100px;
+        
+    }
+    
+}
+
+
+@keyframes ball_3 {
+    from{
+        background-color: rgb(112, 56, 56);
+        margin-bottom: 130px;
+    }
+
+    to{
+        background-color: rgb(47, 59, 59);
+        
+    }
+    
+}
+
+
+@keyframes ball_4 {
+    4% {background-color: black;
+        transform: translateY(-10px);}
+
+        10% {background-color: rgb(209, 55, 55);
+            transform: translateY-(50px);}
+
+            20% {background-color: rgb(85, 16, 16);
+                transform: translateY(-100px);}
+
+                50% {background-color: rgb(148, 97, 22);
+                    transform: translateY(-190px);}
+                }
